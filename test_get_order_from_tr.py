@@ -1,7 +1,7 @@
 import data
 import sender_stand_request
 
-
+# Рина Еникеева, 30А когорта — Финальный проект. Инженер по тестированию плюс
 #   Successful assertion of getting an order from its track
 def assertion_code_200():
 	response_pno = sender_stand_request.post_new_order(data.order_body)
